@@ -10,7 +10,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'unsafe-default-key-for-dev')
 
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['safehaven-api.onrender.com']
+ALLOWED_HOSTS = ['safehaven-api1.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
